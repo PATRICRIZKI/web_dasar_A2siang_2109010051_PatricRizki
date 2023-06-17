@@ -1,0 +1,10 @@
+ruang=[1,2,3,4,5,6,7,8]
+print(ruang)
+ruang.append(9)
+print(ruang)
+ruang.append("morot")
+print(ruang)
+ruang.pop(1)
+print(ruang)
+ruang.remove("motor")
+print(ruang)
