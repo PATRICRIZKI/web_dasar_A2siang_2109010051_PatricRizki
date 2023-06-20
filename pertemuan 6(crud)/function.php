@@ -4,7 +4,7 @@ function koneksi(){
     $ip = "localhost";
     $user = "root";
     $password = "";
-    $database = "2109010051_patric_web-dasar-a2";
+    $database =  "2109010051_patric_web-dasar-a2";
     $koneksi = mysqli_connect($ip,$user,$password,$database);
     return $koneksi;   
 }
